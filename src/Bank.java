@@ -9,24 +9,24 @@ import java.util.Scanner;
  */
 public class Bank {
     private Map<String, Account> accounts = new HashMap<>();
-    private final Scanner scanner = new Scanner(System.in);
+    public final Scanner scanner = new Scanner(System.in);
 
     public void createAccount(){
         Random rand = new Random();
-        long accountNumber = 0;
+        int accountNumber = 0;
         Account account;
-        String accountNum = Double.toString(accountNumber);
+
 
         //Creating account number Randomly
         do{
-            accountNumber = 12344556 + rand.nextInt(1706050);
+            accountNumber = 1435706 + rand.nextInt(1000);
 
             if (accounts.containsKey(accountNumber)){
                 System.out.println("Account already Exists");
             }
         }while(!accounts.containsKey(accountNumber));
 
-
+        String accountNum = Integer.toString(accountNumber);
         // Exception handling required!
         System.out.println("Enter your initial deposit amount: ");
         double initialDeposit = scanner.nextDouble();

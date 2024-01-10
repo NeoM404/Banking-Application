@@ -14,7 +14,7 @@ class SavingsAccount extends Account {
     public void withdraw(double amount)
     {
         if (getBalance() >= amount) {
-            super.withdraw(amount);
+            super.moneyOut(amount);
         } else {
             System.out.println("Insufficient Funds!!");
         }

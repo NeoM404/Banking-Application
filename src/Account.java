@@ -25,6 +25,11 @@ abstract class Account {
 
     public abstract void withdraw(double amount);
 
+    protected void moneyOut(double amount)
+    {
+        this.balance -= amount;
+    }
+
     public void displayBalance()
     {
         System.out.println("Account Number: " + this.accountNumber);
