@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb8354f2-8813-4da9-a8d0-3f1b5673ff89" name="Changes" comment="Fixed Bugs" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="b879a7fbb5e201726ee0f77e2c2c4f85a596939b" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+<<<<<<< Updated upstream
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+=======
+>>>>>>> Stashed changes
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2akp7QaWJCGHoFKa9pGvIDens0K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdvancedBanking.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< Updated upstream
+=======
+    "git-widget-placeholder": "ad41ea33",
+>>>>>>> Stashed changes
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="/private/var/folders/kg/nw7cdvlj36b_wcg_ns22qkd80000gn/T/qodana_output/qodana.sarif.json" />
+        <option name="reportGuid" value="dd787c84-42ba-4c9b-ab4e-e3db62c36d75" />
+        <option name="reportName" value="BankApplication/qodana/2024-01-10" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="/private/var/folders/kg/nw7cdvlj36b_wcg_ns22qkd80000gn/T/qodana_output/qodana.sarif.json" reportGuid="dd787c84-42ba-4c9b-ab4e-e3db62c36d75" reportId="BankApplication/qodana/2024-01-10" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb8354f2-8813-4da9-a8d0-3f1b5673ff89" name="Changes" comment="" />
+      <created>1704872269051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704872269051</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added an abstract class Account">
+      <option name="closed" value="true" />
+      <created>1704873407180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704873407180</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implemented functionality for Savings Account">
+      <option name="closed" value="true" />
+      <created>1704874572627</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704874572627</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Current Account Class">
+      <option name="closed" value="true" />
+      <created>1704874677717</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704874677717</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implemented withdrawal in CurrentAccount">
+      <option name="closed" value="true" />
+      <created>1704875265829</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704875265829</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implemented the Bank class">
+      <option name="closed" value="true" />
+      <created>1704880481830</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704880481830</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Implemented the main for running bank application">
+      <option name="closed" value="true" />
+      <created>1704883119355</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704883119355</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed Bugs">
+      <option name="closed" value="true" />
+      <created>1704884573487</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704884573487</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added an abstract class Account" />
+    <MESSAGE value="Implemented functionality for Savings Account" />
+    <MESSAGE value="Added Current Account Class" />
+    <MESSAGE value="Implemented withdrawal in CurrentAccount" />
+    <MESSAGE value="Implemented the Bank class" />
+    <MESSAGE value="Implemented the main for running bank application" />
+    <MESSAGE value="Fixed Bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Bugs" />
+  </component>
+</project>
