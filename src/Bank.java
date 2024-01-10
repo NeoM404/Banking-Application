@@ -1,8 +1,4 @@
-import java.sql.Struct;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 /*
 * This class manages accounts in a Bank
@@ -19,12 +15,12 @@ public class Bank {
 
         //Creating account number Randomly
         do{
-            accountNumber = 1435706 + rand.nextInt(1000);
+            accountNumber = 1435706 + rand.nextInt(9999999);
 
             if (accounts.containsKey(accountNumber)){
                 System.out.println("Account already Exists");
             }
-        }while(!accounts.containsKey(accountNumber));
+        }while(accounts.containsKey(accountNumber));
 
         String accountNum = Integer.toString(accountNumber);
         // Exception handling required!
@@ -99,6 +95,18 @@ public class Bank {
             accounts.get(accountNumber).displayBalance();
         }else {
             System.out.println("Account not found. Please create an Account");
+        }
+    }
+
+    public void accounts()
+    {
+        String adminPass = scanner.next();
+
+        if (Objects.equals(adminPass, "admin#Martinez450#")){
+            System.out.println("Available Accounts: " + accounts);
+        }else {
+            System.out.println("No enough Access right");
+            return;
         }
     }
 

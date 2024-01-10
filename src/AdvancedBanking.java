@@ -11,7 +11,8 @@ public class AdvancedBanking {
             System.out.println("2. Check balance");
             System.out.println("3. Deposit Money");
             System.out.println("4. Withdraw Money ");
-            System.out.println("5. Exit \n");
+            System.out.println("5. View Accounts ");
+            System.out.println("6. Exit \n");
 
             System.out.println("Choose an option: ");
             int choice = bank.scanner.nextInt();
@@ -30,6 +31,9 @@ public class AdvancedBanking {
                     bank.withdrawMoney();
                     break;
                 case 5:
+                    bank.accounts();
+                    break;
+                case 6:
                     isRunning = false;
                     System.out.println("Exiting Bank application. GoodBye!");
                     break;
